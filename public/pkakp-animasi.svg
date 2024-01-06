@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="512" height="512" viewBox="0 0 20 20">
+    <g>
+        <polyline style="stroke-dasharray: 13; stroke-dashoffset: 13; animation: 1s dash ease-in forwards" points="0, 0.5 6.5, 0.5 6.5, 6.5" stroke="#2db0a1" fill="transparent" stroke-width="1"/>
+        <polyline style="stroke-dasharray: 13; stroke-dashoffset: 13; animation: 1s dash .25s ease-in forwards" points="4, 4.5 10.5, 4.5 10.5, 10.5" stroke="#ffeb34" fill="transparent" stroke-width="1"/>
+        <polyline style="stroke-dasharray: 13; stroke-dashoffset: 13; animation: 1s dash .5s ease-in forwards" points="2, 2.5 8.5, 2.5 8.5, 8.5" stroke="#ff9d33" fill="transparent" stroke-width="1"/>
+        <polyline style="stroke-dasharray: 13; stroke-dashoffset: 13; animation: 1s dash .75s ease-out forwards" points="9, 8.5 2.5, 8.5 2.5, 2.5" stroke="#ff9d33" fill="transparent" stroke-width="1"/>
+        <polyline style="stroke-dasharray: 13; stroke-dashoffset: 13; animation: 1s dash .5s ease-out forwards" points="11, 10.5 4.5, 10.5 4.5, 4.5" stroke="#ffeb34" fill="transparent" stroke-width="1"/>
+        <polyline style="stroke-dasharray: 13; stroke-dashoffset: 13; animation: 1s dash .25s ease-out forwards" points="7, 6.5 0.5, 6.5 0.5, 0.5" stroke="#2db0a1" fill="transparent" stroke-width="1"/>
+    </g>
+    <text x="50%" y="16" dominant-baseline="middle" text-anchor="middle" style="font: bold 4.5px sans-serif" fill="#38ad9f">PKAKP</text>
+    <style>
+        g {
+            transform-box: full-box;
+            transform-origin: 5.5px 5.5px;
+            transform: rotate(-45deg);
+            translate: 4.5px 1.5px
+        }
+        @keyframes dash {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+</svg>
